@@ -1,5 +1,5 @@
 # backend-edhub-hoofdstuk4.2-uitwerkingen
-
+```
 DROP TABLE IF EXISTS docent_cursus;
 DROP TABLE IF EXISTS cursus CASCADE;
 DROP TABLE IF EXISTS docent;
@@ -54,3 +54,4 @@ CONSTRAINT fk_docent REFERENCES docent(id);
 
 ALTER TABLE resultaat ADD COLUMN examinator INT 
 CONSTRAINT fk_examinator REFERENCES docent(id);
+```
